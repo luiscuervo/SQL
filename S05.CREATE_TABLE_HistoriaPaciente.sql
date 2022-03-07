@@ -10,7 +10,7 @@ CREATE TABLE [dbo].[HistoriaPaciente](
 	[idHistoria] [int] NOT NULL,
 	[idPaciente] [int] NOT NULL,
 	[idMedico] [int] NOT NULL,
- CONSTRAINT [PK_HistoriaPaciente] PRIMARY KEY CLUSTERED 
+ CONSTRAINT [PK_HistoriaPaciente] PRIMARY KEY CLUSTERED 		/* We want all three values to be primary keys (Cluster) */
 (
 	[idHistoria] ASC,
 	[idPaciente] ASC,
@@ -20,3 +20,7 @@ CREATE TABLE [dbo].[HistoriaPaciente](
 GO
 
 
+/* Set foreign key */
+
+ALTER TABLE HistoriaPaciente
+ADD FOREIGN KEY (idPaciente) REFERENCES Paciente(idPaciente)
