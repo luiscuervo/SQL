@@ -1,6 +1,8 @@
+/*** Generated script during the Udemy course "Master in SQL server" -by mariano Pugsily **/
 /*** NOTE: all these scripts were created from SQL server. They may not work by themselves. ***/
+----------------------------------------------------------------------------------------------------
 
-/****** Create a Table with three clustered primary keys******/
+/******** Create a Table with three clustered primary keys ****************/
 
 CREATE TABLE [dbo].[HistoriaPaciente](
 	[idHistoria] [int] NOT NULL,
