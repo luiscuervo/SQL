@@ -10,3 +10,4 @@ We covered many other topics during the course such as:
 - Users, Roles, schemes and permissions
 - ...
 
+Also, I am afraid that the course was taught in Spanish, so the fields are labeled in Spanish as well
