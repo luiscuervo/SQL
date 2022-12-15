@@ -6,6 +6,4 @@
 - [TSQL_course_udemy](https://github.com/luiscuervo/SQL/tree/main/TSQL_course_udemy): Learnings on Transact-SQL from the Udemy course "Master en SQL Server", by Mariano Puglisi
 
 ### Note
-all these scripts were created from SQL server. They may not work by themselves. 
-
-
+All these scripts were writen on a SQL editor: Ninja dashboards for PSQL and SQL Server for TSQL. Therefore no statement terminators were written. 
